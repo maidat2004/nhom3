@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 img.src = member.image;
                 img.alt = member.name;
 
-                // Nếu là Lê Khánh Đăng thì ảnh lớn hơn
-                if (member.name === "Lê Khánh Đăng") {
+                
+                if (member.name === "Mai Tuấn Đạt") {
                     img.style.width = "200px";
                 } else {
                     img.style.width = "20px";
